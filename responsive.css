@@ -1,0 +1,301 @@
+@media all and ( max-width:1210px ){
+  .header-left{
+    font-size:20px;
+    padding-left:10px;
+    padding-top: 20px;
+  }
+  .header-right li{
+    font-size:20px;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:20px;
+  }
+
+
+  .top-wrapper{
+    height:1700px;
+  }
+  .home h1{
+    font-size:40px;
+    text-align:center;
+  }
+  h2{
+    font-size: 35px;
+    text-align: center;
+  }
+  .profile-image{
+    float:none;
+    text-align: center;
+    margin:auto;
+    display:block;
+    padding-left: 0px;
+  }
+  .profile p{
+    text-align: center;
+    width:60%;
+    margin:auto;
+    float:none;
+    padding-left:0px;
+   }
+
+  .service-wrapper{
+    height:3040px;
+  }
+  .content-item1{
+    width:100%;
+    text-align: center;
+  }
+  .content-item2{
+    width:100%;
+    text-align: center;
+  }
+  .content-item3{
+    width:100%;
+    text-align: center;
+  }
+  .content-item4{
+    width:100%;
+    text-align: center;
+  }
+  .content-item1 h2{
+    float:none;
+    text-align: center;
+    padding-right:0px;
+    padding-left: 0px;
+  }
+  .content-item1 h3{
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right:0px;
+    float:none;
+  }
+  .content-item1 p{
+    padding-left: 0px;
+    padding-right: 0px;
+    float:none;
+    width:60%;
+    margin:auto;
+
+  }
+  .content-item2 h3{
+    font-size: 30px;
+    padding-left: 0px;
+  }
+  .content-item2 p{
+    padding-left: 0px;
+    width:60%;
+    margin:auto;
+  }
+  .content-item3 h3{
+    font-size: 30px;
+    float:none;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .content-item3 p{
+    padding-left: 0px;
+    padding-right: 0px;
+    width:60%;
+    margin:auto;
+    float:none;
+
+  }
+  .content-item4 h3{
+    font-size: 30px;
+    padding-left: 0px;
+  }
+  .content-item4 p{
+    padding-left: 0px;
+    width:60%;
+    margin:auto;
+  }
+
+  .hobby-wrapper{
+    height:2000px;
+    text-align: center;
+  }
+  .snowboard{
+    width:80%;
+    float:none;
+    margin:auto;
+  }
+  .music{
+    width:80%;
+    float:none;
+    margin:auto;
+    margin-top:50px;
+  }
+  .travel{
+    float:none;
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+    height:840px;
+  }
+  .hobby p{
+    padding-left:30px;
+
+  }
+  .travel p{
+    margin:auto;
+    float:none;
+    width:70%;
+  }
+  .travel-imgs{
+    float:none;
+    margin:auto;
+  }
+
+  .contact-wrapper{
+    height:450px;
+  }
+  .btns{
+    float:none;
+    padding-left: 55px;
+  }
+  .footer-right{
+    text-align: center;
+  }
+}
+
+
+@media all and ( max-width:650px ){
+  .header-left{
+    font-size:10px;
+    padding-top:5px;
+  }
+  .header-right li{
+    font-size:10px;
+    padding-top:5px;
+  }
+  .header-right a{
+    height:30px;
+  }
+  .header-right a:hover{
+    height:30px;
+  }
+  header{
+   height:30px;
+ }
+  .top-wrapper{
+    padding-top:150px;
+    height:900px;
+  }
+  .home h1{
+    font-size:35px;
+    padding-bottom: 0px;
+  }
+  h2{
+    font-size:30px;
+    padding-top: 20px;
+  }
+  .profile-image{
+    width:200px;
+    height:224px;
+    padding-top:30px;
+  }
+  .profile p{
+    font-size: 15px;
+    padding-top:40px;
+  }
+
+  .service-wrapper{
+      height:1500px;
+    }
+  .content-item1{
+    height:150px;
+    padding-top:15px;
+  }
+  .content-item2{
+    height:90px;
+    padding-top: 40px;
+  }
+  .content-item3{
+    height:90px;
+    padding-top: 40px;
+  }
+  .content-item4{
+    height:90px;
+    padding-top: 40px;
+  }
+  .content-item1 h2{
+    padding-top: 20px;
+  }
+  .content-item1 h3{
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .content-item1 p{
+    font-size:15px;
+    padding-top: 30px;
+  }
+  .content-item2 h3{
+    font-size:20px;
+    padding-top:20px;
+  }
+  .content-item2 p{
+    font-size:15px;
+    padding-top: 20px;
+  }
+  .content-item3 h3{
+    font-size:20px;
+    padding-top:30px;
+  }
+  .content-item3 p{
+    font-size:15px;
+    padding-top: 20px;
+  }
+  .content-item4 h3{
+    font-size:20px;
+    padding-top: 20px;
+  }
+  .content-item4 p{
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+
+  .hobby-wrapper{
+    height:1200px;
+    padding-top:15px;
+  }
+  .hobby h3{
+    font-size:25px;
+    padding-left:0px;
+  }
+  .hobby p{
+    font-size:15px;
+  }
+  .snowboard{
+    height:200px;
+  }
+  .music{
+    height:200px;
+  }
+  .travel{
+    height:550px;
+  }
+  .travel-img{
+    width:140px;
+    height:90px;
+    padding-right: 0px;
+  }
+  .travel-imgs{
+    width:100%;
+  }
+  .travel p{
+    padding-left:0px;
+    width:90%;
+  }
+  .contact-wrapper{
+    height:300px;
+    padding-top: 15px;
+  }
+  .btn{
+    font-size:60px;
+    padding-left:10px;
+  }
+  .footer-right{
+    font-size:12px;
+  }
+}
