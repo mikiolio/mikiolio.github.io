@@ -1,0 +1,377 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body{
+  font-family: 'Yu Mincho',serif;
+}
+
+.container{
+  max-width:1200px;
+  width:100%;
+  margin: auto;
+}
+
+
+header{
+  height:70px;
+  width:100%;
+  background-color:rgba(39,38,34,0.8);
+  color:white;
+  position: fixed;
+  z-index: 1;
+
+}
+.header-right{
+  float:right;
+}
+.header-right li{
+  float:left;
+  font-size:30px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:10px;
+}
+.header-left{
+  font-size:30px;
+  float:left;
+  padding-left:78px;
+  padding-top: 10px;
+}
+.header-right a{
+  display: inline-block;
+  color:white;
+  height:70px;
+}
+.header-right a:hover{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.top-wrapper{
+  background-image: url("img/kyuba.jpg" );
+  background-size: cover;
+  width:100%;
+  height:1100px;
+  color: white;
+  padding-top: 300px;
+  position: relative;
+}
+.top-wrapper::before{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content: '';
+}
+.box{
+  position: absolute;
+
+}
+.home h1{
+  font-size: 65px;
+  width:100%;
+  margin:auto;
+  padding-bottom: 105px;
+}
+ h2{
+   padding-top: 70px;
+  font-size: 60px;
+}
+.profile-image{
+  padding-left: 57px;
+  padding-top: 90px;
+  float: left;
+  width: 366px;
+  height: 411px;
+}
+.profile p{
+  float: left;
+  font-size:26px;
+  width: 622px;
+  padding-top: 60px;
+  padding-left: 135px;
+}
+
+
+.service-wrapper{
+  height:1520px;
+  width:100%;
+  color:white;
+
+}
+.content-item1::before{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.content-item2::before{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.content-item3::before{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.content-item4::before{
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+.content-item1{
+  background-image: url("img/design.jpg");
+  background-size: cover;
+  height:465px;
+  position:relative;
+  width:50%;
+  float:left;
+  padding-bottom:250px;
+  padding-top:56px;
+}
+.content-item2{
+  background-image: url("img/ko.jpg");
+  background-size: cover;
+  height:465px;
+  position:relative;
+  width:50%;
+  float:left;
+  padding-bottom:250px;
+  padding-top:56px;
+}
+.content-item3{
+  background-image: url("img/sate.jpg");
+  background-size: cover;
+  height:450px;
+  position:relative;
+  width:50%;
+  float:left;
+  padding-bottom:250px;
+  padding-top:56px;
+}
+.content-item4{
+  background-image: url("img/hari.jpg");
+  background-size: cover;
+  height:450px;
+  position: relative;
+  width:50%;
+  float:left;
+  padding-bottom:250px;
+  padding-top:56px;
+}
+.content-item1 h2{
+  float:right;
+  padding-top: 70px;
+  padding-right:320px;
+  padding-left: 80px;
+}
+.content-item1 p{
+  width:445px;
+  height:244px;
+  padding-top: 56px;
+  font-size:26px;
+  float:right;
+  padding-right:50px;
+  padding-left:100px;
+}
+.content-item1 h3{
+  float:right;
+  padding-top:56px;
+  font-size:40px;
+  padding-right:220px;
+  padding-left:190px;
+}
+.content-item2 p{
+  width:445px;
+  height:244px;
+  padding-top: 56px;
+  font-size:26px;
+  padding-left: 110px;
+}
+.content-item2 h3{
+  font-size:40px;
+  padding-left: 110px;
+  padding-top:225px;
+}
+.content-item3 p{
+  width:445px;
+  height:244px;
+  padding-top: 56px;
+  font-size:26px;
+  float:right;
+  padding-right:50px;
+  padding-left: 100px;
+}
+.content-item3 h3{
+  font-size:40px;
+  padding-left: 170px;
+  padding-right:180px;
+  float:right;
+  padding-top: 134px;
+}
+.content-item4 p{
+  width:445px;
+  height:244px;
+  padding-top: 56px;
+  font-size:26px;
+  padding-left: 110px;
+}
+.content-item4 h3{
+  font-size:40px;
+  padding-left: 110px;
+  padding-top: 134px;
+}
+
+
+.hobby-wrapper{
+  background-image:url("img/star.jpg");
+  background-size: cover;
+  height:1300px;
+  width:100%;
+  color:white;
+  padding-top: 148px;
+  position:relative;
+}
+.hobby-wrapper::before{
+  background-color:rgba(0,0,0,0.6);
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  content:"";
+}
+.snowboard {
+  background-color: rgba(255,255,255,15%);
+  width:40%;
+  max-width: 550px;
+  height:300px;
+  float:left;
+  margin-top:132px;
+  padding-right:20px;
+}
+.music{
+    background-color: rgba(255,255,255,15%);
+    width:40%;
+    max-width: 550px;
+    height:300px;
+    float:left;
+    margin-left:60px;
+    padding-right:20px;
+    margin-top:132px;
+}
+.travel{
+  background-color: rgba(255,255,255,15%);
+  float:left;
+  margin-top:70px;
+  width:90%;
+  max-width: 1200px;
+  height:530px;
+}
+.travel p{
+  width:440px;
+  float:left;
+  padding-top: 60px;
+}
+.travel-img{
+  height:164px;
+  width:262px;
+  float:left;
+  padding-bottom:44px;
+  padding-right: 22px;
+}
+.travel-imgs{
+  float:right;
+  width:568px;
+}
+.hobby h3{
+  font-size:40px;
+  padding-left: 40px;
+  padding-top: 22px;
+}
+.hobby p{
+  font-size:26px;
+  padding-left: 55px;
+}
+.snowboard,.music{
+  padding-top:11px;
+}
+.music a{
+  color:rgba(255,255,255,0.5);
+}
+.music a:hover{
+  color:rgb(38,128,235);
+}
+
+.contact-wrapper{
+  color:white;
+  background-color:black;
+  width:100%;
+  height:500px;
+  padding-top:80px;
+}
+.btns{
+  display:inline-block;
+  padding-top:30px;
+}
+.btn{
+  padding-left:30px;
+  font-size:80px;
+}
+.fab:hover{
+  color:white;
+}
+.fa-twitter-square{
+  color:rgba(66,141,196,100%);
+}
+.fa-facebook-square{
+  color:rgba(71,101,161,100%);
+}
+.fa-instagram{
+ color:rgba(226,58,86,100%);
+}
+.fa-envelope{
+  color:rgba(226,130,34,100%);
+}
+.far:hover{
+  color:white;
+}
+
+footer{
+  background-color:black;
+  height:90px;
+  width:100%;
+  color:white;
+}
+.footer-right{
+  font-size:20px;
+  padding-right:78px;
+  padding-top:30px;
+  text-align: right;
+}
